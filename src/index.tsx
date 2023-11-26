@@ -18,6 +18,7 @@ const app = (
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="/" element={<PortfolioComponent />} />
+        <Route path="/anthonymeranteweb" element={<PortfolioComponent />} />
         <Route path="/code" element={<CodeComponent />} />
         <Route path="/food" element={<FoodComponent />} />
       </Route>
