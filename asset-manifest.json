@@ -1,8 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.cccea978.css",
-    "main.js": "/static/js/main.d549f438.js",
+    "main.css": "/static/css/main.8b4fb41d.css",
+    "main.js": "/static/js/main.a54370bb.js",
     "static/js/787.b0ce35b4.chunk.js": "/static/js/787.b0ce35b4.chunk.js",
+    "static/media/6.jpg": "/static/media/6.c89758f12aee2b94ea36.jpg",
+    "static/media/4.jpg": "/static/media/4.5e30c31c3476b306b096.jpg",
+    "static/media/3.jpg": "/static/media/3.1a0e101729d73bd524cf.jpg",
+    "static/media/2.jpg": "/static/media/2.033fa44b502cdb960365.jpg",
+    "static/media/10.jpg": "/static/media/10.46b0340ab11434f7c2fc.jpg",
+    "static/media/7.jpg": "/static/media/7.c65f027773def69196ac.jpg",
+    "static/media/9.jpg": "/static/media/9.aa28169a86ab42981b16.jpg",
+    "static/media/5.jpg": "/static/media/5.f030b435bdd93c8fd8ba.jpg",
+    "static/media/1.jpg": "/static/media/1.c7e68ec74cb4effb8e5f.jpg",
+    "static/media/8.jpg": "/static/media/8.d8798904088ec8eccc27.jpg",
     "static/media/AppleCheesecake.png": "/static/media/AppleCheesecake.c701ed2e941e55ab19da.png",
     "static/media/bchic.png": "/static/media/bchic.60d66b6abf2256e576dd.png",
     "static/media/CherCk.png": "/static/media/CherCk.75f7e234aa3ca03cf324.png",
@@ -84,12 +94,12 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/index.html",
-    "main.cccea978.css.map": "/static/css/main.cccea978.css.map",
-    "main.d549f438.js.map": "/static/js/main.d549f438.js.map",
+    "main.8b4fb41d.css.map": "/static/css/main.8b4fb41d.css.map",
+    "main.a54370bb.js.map": "/static/js/main.a54370bb.js.map",
     "787.b0ce35b4.chunk.js.map": "/static/js/787.b0ce35b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cccea978.css",
-    "static/js/main.d549f438.js"
+    "static/css/main.8b4fb41d.css",
+    "static/js/main.a54370bb.js"
   ]
 }
