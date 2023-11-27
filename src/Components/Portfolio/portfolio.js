@@ -66,17 +66,17 @@ const PortfolioComponent = () => {
           list={[
             <LinkElement
               content='LinkedIn "Python Developer" Certificate'
-              link="CertificateOfCompletion_Become A Python Developer.pdf"
+              link="certifications/CertificateOfCompletion_Become A Python Developer.pdf"
               isPdf={true}
             />,
             <LinkElement
               content='LinkedIn "C++ Developer" Certificate'
-              link="LinkedinCppDevCert.pdf"
+              link="certifications/LinkedinCppDevCert.pdf"
               isPdf={true}
             />,
             <LinkElement
               content="HarvardX Data Science: R Basics"
-              link="HarvardX PH125.1x Certificate _ edX.pdf"
+              link="certifications/HarvardX PH125.1x Certificate _ edX.pdf"
               isPdf={true}
             />,
           ]}
@@ -85,9 +85,9 @@ const PortfolioComponent = () => {
           header={"References"}
           grow={6}
           list={[
-            <LinkElement content="(Professor) Janice Manning Reference Letter" link="JaniceManningReferenceLetter.pdf" isPdf={true}/>,
-            <LinkElement content="(Professor) Bill Pulling Reference Letter" link="BillPullingReferenceLetter.pdf" isPdf={true}/>,
-            <LinkElement content="(Professor) Hany ElYamany Reference Letter" link="HanyElYamanyReferenceLetter.pdf" isPdf={true}/>,
+            <LinkElement content="(Professor) Janice Manning Reference Letter" link="references/JaniceManningReferenceLetter.pdf" isPdf={true}/>,
+            <LinkElement content="(Professor) Bill Pulling Reference Letter" link="references/BillPullingReferenceLetter.pdf" isPdf={true}/>,
+            <LinkElement content="(Professor) Hany ElYamany Reference Letter" link="references/HanyElYamanyReferenceLetter.pdf" isPdf={true}/>,
           ]}
         />
       </Card>
