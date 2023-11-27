@@ -17,7 +17,7 @@ const LeftImgCard = (props) => {
       <CardMedia
         component="img"
         sx={{mx: "auto"}}
-        image={require("../../images/"+props.img)}
+        image={require("../../resources/images/"+props.img)}
       />
       <Box sx={{ flexDirection: "column" }} display={isNotLarge ? "block" : "flex"}>
         <CardContent sx={{ flex: "1 0 auto" }}>

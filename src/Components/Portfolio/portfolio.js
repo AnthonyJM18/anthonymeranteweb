@@ -27,7 +27,7 @@ const PortfolioComponent = () => {
           component="img"
           height="300"
           sx={isSmall ? { width: "auto", mx: "auto" } : { width: "auto" }}
-          image={require("../../images/me1.jpg")}
+          image={require("../../resources/images/me1.jpg")}
           alt="Anthony"
         />
         <Box sx={{ flexDirection: "column" }} display={isSmall ? "block" : "flex"}>
@@ -66,15 +66,18 @@ const PortfolioComponent = () => {
           list={[
             <LinkElement
               content='LinkedIn "Python Developer" Certificate'
-              link="https://ajmportfolio.interconnected.live/Certificates/LinkedInPythonDevCert.pdf"
+              link="CertificateOfCompletion_Become A Python Developer.pdf"
+              isPdf={true}
             />,
             <LinkElement
               content='LinkedIn "C++ Developer" Certificate'
-              link="https://ajmportfolio.interconnected.live/Certificates/LinkedinCppDevCert.pdf"
+              link="LinkedinCppDevCert.pdf"
+              isPdf={true}
             />,
             <LinkElement
               content="HarvardX Data Science: R Basics"
-              link="https://ajmportfolio.interconnected.live/Certificates/HarvardX%20PH125.1x%20Certificate%20_%20edX.pdf"
+              link="HarvardX PH125.1x Certificate _ edX.pdf"
+              isPdf={true}
             />,
           ]}
         />
@@ -82,9 +85,9 @@ const PortfolioComponent = () => {
           header={"References"}
           grow={6}
           list={[
-            <LinkElement content="(Professor) Janice Manning Reference Letter" link="" />,
-            <LinkElement content="(Professor) Bill Pulling Reference Letter" link="" />,
-            <LinkElement content="(Professor) Hany ElYamany Reference Letter" link="#" />,
+            <LinkElement content="(Professor) Janice Manning Reference Letter" link="JaniceManningReferenceLetter.pdf" isPdf={true}/>,
+            <LinkElement content="(Professor) Bill Pulling Reference Letter" link="BillPullingReferenceLetter.pdf" isPdf={true}/>,
+            <LinkElement content="(Professor) Hany ElYamany Reference Letter" link="HanyElYamanyReferenceLetter.pdf" isPdf={true}/>,
           ]}
         />
       </Card>
@@ -96,10 +99,12 @@ const PortfolioComponent = () => {
           subheader={"Toronto Dominion"}
           wth={isMedium ? "100%" : "50%"}
           list={[
-            <TextElement content="In charge of leading and mentoring 2 junior developers through the development life-cycle and ensuring quality code and tests are produced" />,
-            <TextElement content="Migrated deprecated fault tolerance system to a newer library across all mobile applications" />,
-            <TextElement content="Successfully deployed several applications to development environments" />,
-            <TextElement content="Ran vulnerability scans on mobile applications and mitigated risks in a timely manner" />,
+            <TextElement content="Designed and implemented clean, resiliant, and reusable API's used by hundreds of thousands every day" />,
+            <TextElement content="Lead many production deployments including version change and certificate renewals and walk multiple junior developers through the process" />,
+            <TextElement content="Maintained application security by scanning and resolving vulnerabilities frequently" />,
+            <TextElement content="Assist in the upgrading of old frameworks and migration deprecated libraries" />,
+            <TextElement content="Developed an internal application which has substantially improved the teams productivity" />,
+            <TextElement content="Recognized with a quarterly award for exceeding all expectations and being a key contributer to the team" />
           ]}
         />
         <LeftInfoCard
@@ -143,46 +148,47 @@ const PortfolioComponent = () => {
           header={"Programming Languages"}
           wth={isMedium ? "100%" : "50%"}
           list={[
-            <TextElement content="Java - I am proficient with Java in a enterprise level spring-boot web environment" />,
-            <TextElement content="C# - I am proficient with C# in enterprise level ASP.NET web environments" />,
-            <TextElement content="JavaScript - I have working experience with both JavaScript and many popular frameworks such as React, Angular, and Node" />,
+            <TextElement content="Java - Proficient with 2+ years in a large enterprise environment" />,
+            <TextElement content="C# - Skilled with roughly a year in a small enterprise environment" />,
+            <TextElement content="JavaScript - A mix of work and educational experience mainly with frameworks such as React and Angular" />,
             <TextElement content="Python - I have experience with modifying excel documents, web scraping, and many other libraries" />,
-            <TextElement content="C++ - Intermediate level - experience with multi-threading, web socket communication, and other Windows API's" />,
+            <TextElement content="C++ - Intermediate level - educational experience with multi-threading, web socket communication, and other Windows API's" />,
+          ]}
+        />
+        <LeftInfoCard
+          header={"Programming Libraries"}
+          wth={isMedium ? "100%" : "50%"}
+          list={[
+            <TextElement content="JUnit - Enterprise experience with Test Driven Development creating hundreds of reusable and accurate test scenarios" />,
+            <TextElement content="Resilience4J - Enterprise experience mirgrating from Hystrix" />,
+            <TextElement content="OpenApi / Swagger - Experience implementing and configuring OpenApi Standard 3" />,
+            <TextElement content="Paypal - Experience creating sandbox accounts and implementing services to handle transactions" />,
+            <TextElement content="Google Maps Api - Experience requesting locations and performing mathmatical calculations in order to mark and outline buildings accurately" />,
+          ]}
+        />
+        <LeftInfoCard
+          header={"Frameworks"}
+          wth={isMedium ? "100%" : "50%"}
+          list={[
+            <TextElement content="Spring Boot - Working experience creating controllers, services, and libraries." />,
+            <TextElement content="ASP.NET - Working experience in creating web, desktop, and console applications" />,
+            <TextElement content="Angular - Working experience at a Intermediate skill level" />,
+            <TextElement content="Express - Experience creating a web servers, and applications that make use of web sockets" />,
+            <TextElement content="React - Experience creating both web and mobile applications. This site was made in React! " />,
           ]}
         />
           <LeftInfoCard
             header={"Development Software"}
             wth={isMedium ? "100%" : "50%"}
             list={[
+              <TextElement content="Jira - Working experience with creating or updating tickets" />,
+              <TextElement content="Datadog & Splunk - Enterprise experience creating search queries and dashboards to monitor applications" />,
               <TextElement content="Bitbucket - Experience with pull requests, creating and cloning repositories, and searching repositories for specific code" />,
               <TextElement content="Confluence - Experience creating and updating well documented articles" />,
-              <TextElement content="Jira - Working experience with creating or updating tickets" />,
               <TextElement content="Veracode - Experience running a sandbox scans and reviewing any code or dependency vulnerabilities " />,
-              <TextElement content="Teams Foundation Server - Experience with creating and reviewing pull requests" />,
             ]}
           />
-        <LeftInfoCard
-          header={"Frameworks"}
-          wth={isMedium ? "100%" : "50%"}
-          list={[
-            <TextElement content="ASP.NET - Working experience in creating web, desktop, and console applications" />,
-            <TextElement content="Springboot - Working experience creating controllers, services, and libraries." />,
-            <TextElement content="Angular - Intermediate skill level" />,
-            <TextElement content="Express - Experience creating a web servers, and applications that make use of web sockets" />,
-            <TextElement content="React - Experience creating both web and mobile applications. This site was made in React! " />,
-          ]}
-        />
-        <LeftInfoCard
-          header={"Developer Tools"}
-          wth={isMedium ? "100%" : "50%"}
-          list={[
-            <TextElement content="GIT - Proficient" />,
-            <TextElement content="Postman - Experience sending requests, creating collections and environments" />,
-            <TextElement content="SQL Server Management Studio - Intermediate skill level" />,
-            <TextElement content="Maven - Proficient" />,
-            <TextElement content="Android Device Manager - Experience setting up and running Android emulators" />,
-          ]}
-        />
+        
       </Card>
     </Paper>  
   );
