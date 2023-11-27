@@ -57,7 +57,7 @@ const NavigationDrawer = forwardRef((props, ref) => {
           <ListItemIcon>
             <CakeIcon />
           </ListItemIcon>
-          <ListItemText>Baking</ListItemText>
+          <ListItemText>Cooking</ListItemText>
         </ListItem>
       </List>
     </Box>
