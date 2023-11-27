@@ -53,11 +53,11 @@ const NavigationDrawer = forwardRef((props, ref) => {
           </ListItemIcon>
           <ListItemText>Coding</ListItemText>
         </ListItem>
-        <ListItem button component={Link} to="/food" onClick={() => sendTitle("Baking")}>
+        <ListItem button component={Link} to="/food" onClick={() => sendTitle("Food")}>
           <ListItemIcon>
             <CakeIcon />
           </ListItemIcon>
-          <ListItemText>Baking</ListItemText>
+          <ListItemText>Food</ListItemText>
         </ListItem>
       </List>
     </Box>
