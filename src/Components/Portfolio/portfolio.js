@@ -99,12 +99,12 @@ const PortfolioComponent = () => {
           subheader={"Toronto Dominion"}
           wth={isMedium ? "100%" : "50%"}
           list={[
-            <TextElement content="Designed and implemented clean, resiliant, and reusable API's used by hundreds of thousands every day" />,
+            <TextElement content="Designed and implemented clean, resilient, and reusable APIs used by hundreds of thousands every day" />,
             <TextElement content="Lead many production deployments including version change and certificate renewals and walk multiple junior developers through the process" />,
             <TextElement content="Maintained application security by scanning and resolving vulnerabilities frequently" />,
             <TextElement content="Assist in the upgrading of old frameworks and migration deprecated libraries" />,
             <TextElement content="Developed an internal application which has substantially improved the teams productivity" />,
-            <TextElement content="Recognized with a quarterly award for exceeding all expectations and being a key contributer to the team" />
+            <TextElement content="Recognized with a quarterly award for exceeding all expectations and being a key contributor to the team" />
           ]}
         />
         <LeftInfoCard
@@ -152,7 +152,7 @@ const PortfolioComponent = () => {
             <TextElement content="C# - Skilled with roughly a year in a small enterprise environment" />,
             <TextElement content="JavaScript - A mix of work and educational experience mainly with frameworks such as React and Angular" />,
             <TextElement content="Python - I have experience with modifying excel documents, web scraping, and many other libraries" />,
-            <TextElement content="C++ - Intermediate level - educational experience with multi-threading, web socket communication, and other Windows API's" />,
+            <TextElement content="C++ - Intermediate level - educational experience with multi-threading, web socket communication, and other Windows APIs" />,
           ]}
         />
         <LeftInfoCard
@@ -160,10 +160,10 @@ const PortfolioComponent = () => {
           wth={isMedium ? "100%" : "50%"}
           list={[
             <TextElement content="JUnit - Enterprise experience with Test Driven Development creating hundreds of reusable and accurate test scenarios" />,
-            <TextElement content="Resilience4J - Enterprise experience mirgrating from Hystrix" />,
+            <TextElement content="Resilience4J - Enterprise experience migrating from Hystrix" />,
             <TextElement content="OpenApi / Swagger - Experience implementing and configuring OpenApi Standard 3" />,
             <TextElement content="Paypal - Experience creating sandbox accounts and implementing services to handle transactions" />,
-            <TextElement content="Google Maps Api - Experience requesting locations and performing mathmatical calculations in order to mark and outline buildings accurately" />,
+            <TextElement content="Google Maps Api - Experience requesting locations and performing mathematical calculations in order to mark and outline buildings accurately" />,
           ]}
         />
         <LeftInfoCard
