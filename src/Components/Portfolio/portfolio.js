@@ -100,7 +100,8 @@ const PortfolioComponent = () => {
           wth={isMedium ? "100%" : "50%"}
           list={[
             <TextElement content="Designed and implemented clean, resilient, and reusable APIs used by hundreds of thousands every day" />,
-            <TextElement content="Lead many production deployments including version change and certificate renewals and walk multiple junior developers through the process" />,
+            <TextElement content="Lead many production deployments and certificate renewals" />,
+            <TextElement content="Mentored junior developers through coding designs and lifecycles" />,
             <TextElement content="Maintained application security by scanning and resolving vulnerabilities frequently" />,
             <TextElement content="Assist in the upgrading of old frameworks and migration deprecated libraries" />,
             <TextElement content="Developed an internal application which has substantially improved the teams productivity" />,
