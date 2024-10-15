@@ -105,7 +105,7 @@ const PortfolioComponent = () => {
             <TextElement content="Maintained application security by scanning and resolving vulnerabilities frequently" />,
             <TextElement content="Assist in the upgrading of old frameworks and migration deprecated libraries" />,
             <TextElement content="Developed an internal application which has substantially improved the teams productivity" />,
-            <TextElement content="Recognized with a quarterly award for exceeding all expectations and being a key contributor to the team" />
+            <TextElement content="Recognized with a quarterly award for exceeding all expectations and being a key contributor to the team" /> 
           ]}
         />
         <LeftInfoCard
