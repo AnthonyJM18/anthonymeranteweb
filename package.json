@@ -1,7 +1,7 @@
 {
   "name": "anthonymeranteweb",
-  "version": "0.1.1",
-  "homepage": "https://anthonymerante.ca",
+  "version": "0.1.2",
+  "homepage": "https://anthonymerante.ca/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",

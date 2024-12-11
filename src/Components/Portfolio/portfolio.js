@@ -43,7 +43,7 @@ const PortfolioComponent = () => {
               love working on development teams to create quality applications.
             </Typography>
             <Typography variant="body1" sx={{ mt: 2 }}>
-              Aside from programming, I enjoy baking cheesecake and tiramisu, playing video games, and growing plants
+              Outside of Software Development I enjoy playing video games, practicing caligraphy, learning about finance, and growing peppers.
             </Typography>
           </CardContent>
         </Box>
@@ -53,7 +53,7 @@ const PortfolioComponent = () => {
         header="Education"
         list={[
           <TextElement content="Fanshawe College: Computer Programmer Analyst - September 2018-2021" />,
-          <TextElement content="Cumulative GPA: 4.10 / 4.20" />,
+          <TextElement content="Cumulative GPA: 4.10" />,
           <TextElement content="President's Honor Roll" />,
           <TextElement content="Deans Honor Roll: Fall 2018, Winter 2019, Summer 2020, Fall 2020, Winter 2021, Fall 2021" />,
         ]}
@@ -94,18 +94,29 @@ const PortfolioComponent = () => {
       <Divider />
       <CenteredHeader content="Work Experience" />
       <Card sx={isMedium ? { display: "block" } : { display: "flex", flexWrap: "wrap" }}>
-        <LeftInfoCard
-          header={"Software Engineer"}
+      <LeftInfoCard
+          header={"Software Engineer II"}
           subheader={"Toronto Dominion"}
           wth={isMedium ? "100%" : "50%"}
           list={[
-            <TextElement content="Designed and implemented clean, resilient, and reusable APIs used by hundreds of thousands every day" />,
-            <TextElement content="Lead many production deployments and certificate renewals" />,  
-            <TextElement content="Mentored junior developers through coding designs and lifecycles" />,
-            <TextElement content="Maintained application security by scanning and resolving vulnerabilities frequently" />,
-            <TextElement content="Assist in the upgrading of old frameworks and migration deprecated libraries" />,
-            <TextElement content="Developed an internal application which has substantially improved the teams productivity" />,
-            <TextElement content="Recognized with a quarterly award for exceeding all expectations and being a key contributor to the team" /> 
+              <TextElement content="Design and develop backend features and architecture leveraging Spring Boot" />,
+              <TextElement content="Lead projects throughout the development lifecycle, from concept to delivery" />,
+              <TextElement content="Support two junior developers, mentoring them throughout project work" />,
+              <TextElement content="Investigate production incidents and implement hotfixes to remediate issues" />,
+          ]}
+      />  
+      <LeftInfoCard
+          header={"Software Engineer I"}
+          subheader={"Toronto Dominion"}
+          wth={isMedium ? "100%" : "50%"}
+          list={[
+              <TextElement content="Developed and maintained RESTful APIs for ten high-traffic microservices" />,
+              <TextElement content="Contributed to feature design and authored comprehensive documentation" />,  
+              <TextElement content="Wrote comprehensive unit tests to ensure high quality of code" />,
+              <TextElement content="Maintained service security by identifying and resolving vulnerabilities" />,
+              <TextElement content="Deployed applications to production and monitored traffic to ensure stability" />,
+              <TextElement content="Developed an application to monitor development environments, resulting in a boost in team efficiency and productivity" />,
+              <TextElement content="Recognized with two awards for contributions to the team and applications" /> 
           ]}
         />
         <LeftInfoCard
@@ -113,10 +124,12 @@ const PortfolioComponent = () => {
           subheader={"Atlas Apex Roofing"}
           wth={isMedium ? "100%" : "50%"}
           list={[
-            <TextElement content="Created application components in an Agile environment utilizing a test-driven development approach" />,
-            <TextElement content="Built a ASP.NET web application to host live raffles. It utilized Angular, PayPal API, and websockets written in C#" />,
-            <TextElement content="Worked with Google Maps API to develop algorithms to calculate roof areas and divide them into many sections" />,
-            <TextElement content="Maintained and created functionality for legacy applications" />,
+              <TextElement content="Rebuilt a legacy web application, modernizing its full-stack architecture" />,
+              <TextElement content="Integrated PayPal payment system to process transactions and verify orders" />,
+              <TextElement content="Developed SQL scripts and stored procedures to support application functionality" />,
+              <TextElement content="Implemented a real-time item reservation system using WebSockets" />,
+              <TextElement content="Maintained a legacy web application, addressing issues and improving functionality" />,
+              <TextElement content="Leveraged Google Maps API and geometry libraries for construction planning" />,
           ]}
         />
         <LeftInfoCard
@@ -149,7 +162,7 @@ const PortfolioComponent = () => {
           header={"Programming Languages"}
           wth={isMedium ? "100%" : "50%"}
           list={[
-            <TextElement content="Java - Proficient with 2+ years in a large enterprise environment" />,
+            <TextElement content="Java - Proficient with 3+ years in a large enterprise environment" />,
             <TextElement content="C# - Skilled with roughly a year in a small enterprise environment" />,
             <TextElement content="JavaScript - A mix of work and educational experience mainly with frameworks such as React and Angular" />,
             <TextElement content="Python - I have experience with modifying excel documents, web scraping, and many other libraries" />,
