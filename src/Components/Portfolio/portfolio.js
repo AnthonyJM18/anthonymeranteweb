@@ -39,11 +39,10 @@ const PortfolioComponent = () => {
               Software Developer
             </Typography>
             <Typography variant="body1" sx={{ mt: 2 }}>
-              I have been passionate about programming and software since a very young age, and I
-              love working on development teams to create quality applications.
+              I've been passionate about programming from a young age and enjoy building high-quality applications as part of collaborative development teams.
             </Typography>
             <Typography variant="body1" sx={{ mt: 2 }}>
-              Aside from programming, I enjoy baking cheesecake and tiramisu, playing video games, and growing plants
+              Outside of programming, I enjoy collecting and studying rocks, playing video games, practicing calligraphy, and making jewelry.
             </Typography>
           </CardContent>
         </Box>
@@ -93,19 +92,35 @@ const PortfolioComponent = () => {
       </Card>
       <Divider />
       <CenteredHeader content="Work Experience" />
-      <Card sx={isMedium ? { display: "block" } : { display: "flex", flexWrap: "wrap" }}>
+          <Card sx={isMedium ? { display: "block" } : { display: "flex", flexWrap: "wrap" }}>
         <LeftInfoCard
-          header={"Software Engineer"}
+            header={"Software Engineer II"}
+            subheader={"Toronto Dominion"}
+            wth={isMedium ? "100%" : "50%"}
+            list={[
+                <TextElement content="Led multiple backend projects enhancing functionality for thousands of customers." />,
+                <TextElement content="Primary contact and subject-matter expert for high-traffic microservices." />,
+                <TextElement content="Developed APIs and introduced caching, reducing load and enhancing reliability." />,
+                <TextElement content="Modernized backend by upgrading JDK, Spring Boot, and core libraries." />,
+                <TextElement content="Mentored two junior developers and onboarded new team members." />,
+                <TextElement content="Collaborated with cross-functional teams, ensuring smooth project delivery." />,
+                <TextElement content="Diagnosed and resolved production incidents, minimizing downtime." />,
+                <TextElement content="Recognized with the Legendary Award (top 3% of employees) for impactful projects, mentoring, and exemplifying company values." />,
+            ]}
+        />
+        <LeftInfoCard
+          header={"Software Engineer I "}
           subheader={"Toronto Dominion"}
           wth={isMedium ? "100%" : "50%"}
           list={[
-            <TextElement content="Designed and implemented clean, resilient, and reusable APIs used by hundreds of thousands every day" />,
-            <TextElement content="Lead many production deployments and certificate renewals" />,  
-            <TextElement content="Mentored junior developers through coding designs and lifecycles" />,
-            <TextElement content="Maintained application security by scanning and resolving vulnerabilities frequently" />,
-            <TextElement content="Assist in the upgrading of old frameworks and migration deprecated libraries" />,
-            <TextElement content="Developed an internal application which has substantially improved the teams productivity" />,
-            <TextElement content="Recognized with a quarterly award for exceeding all expectations and being a key contributor to the team" /> 
+            <TextElement content="Developed and maintained RESTful APIs for 10 high-traffic microservices, ensuring reliable and scalable service delivery." />,
+            <TextElement content="Contributed to feature design, shaping technical solutions adopted in production." />,  
+            <TextElement content="Wrote comprehensive unit tests, increasing code quality and minimizing defects." />,  
+            <TextElement content="Maintained service security by resolving vulnerabilities, enhancing system reliability." />,  
+            <TextElement content="Maintained service security by resolving vulnerabilities, enhancing system reliability." />,  
+            <TextElement content="Deployed 100+ applications to production, ensuring stable operations." />,  
+            <TextElement content="Developed an internal monitoring application, boosting team efficiency and visibility." />,  
+            <TextElement content="Recognized with two awards for contributions to applications and team performance." />,  
           ]}
         />
         <LeftInfoCard
@@ -124,21 +139,10 @@ const PortfolioComponent = () => {
           subheader={"AJM Tutoring (Freelance)"}
           wth={isMedium ? "100%" : "50%"}
           list={[
-            <TextElement content="Instruct groups of up to 12 participants of varying levels of computer skills" />,
-            <TextElement content="Tailor and deliver private lessons, based on individual skill levels and needs" />,
-            <TextElement content="Used participant feedback to improve and expand lesson plans" />,
-            <TextElement content="Create lectures and workshop materials to deliver to groups of adult learners, covering topics such as: Microsoft Excel, Word, and Search Engine Optimization" />,
-          ]}
-        />
-        <LeftInfoCard
-          header={"Inventory Manager"}
-          subheader={"DLB Electric"}
-          wth={isMedium ? "100%" : "50%"}
-          list={[
-            <TextElement content="Created and administered a database containing all company tools and all stock" />,
-            <TextElement content="Managed the companies flow of resources" />,
-            <TextElement content="Gathered and prepared resources ahead of time to ensure jobs have the correct resources" />,
-            <TextElement content="Assisted with the setup of work machines, supporting employees with technical issues, and installing network cables" />,
+            <TextElement content="Rebuilt and modernized a legacy web application with full-stack architecture." />,
+            <TextElement content="Integrated external APIs including Google Maps and PayPal." />,
+            <TextElement content="Developed SQL procedures and scripts to support application features." />,
+            <TextElement content="Implemented a real-time reservation system using WebSockets." />,
           ]}
         />
       </Card>
@@ -149,46 +153,46 @@ const PortfolioComponent = () => {
           header={"Programming Languages"}
           wth={isMedium ? "100%" : "50%"}
           list={[
-            <TextElement content="Java - Proficient with 2+ years in a large enterprise environment" />,
-            <TextElement content="C# - Skilled with roughly a year in a small enterprise environment" />,
-            <TextElement content="JavaScript - A mix of work and educational experience mainly with frameworks such as React and Angular" />,
-            <TextElement content="Python - I have experience with modifying excel documents, web scraping, and many other libraries" />,
-            <TextElement content="C++ - Intermediate level - educational experience with multi-threading, web socket communication, and other Windows APIs" />,
+            <TextElement content="Java - Proficient with 4+ years in a large enterprise environment" />,
+            <TextElement content="C# - ~1 year in small enterprise projects  " />,
+            <TextElement content="JavaScript - Previous experience with frameworks such as React and Angular" />,
+            <TextElement content="Python - past experience with scripting and data manipulation" />,
+            <TextElement content="C++ - educational experience" />,
           ]}
         />
         <LeftInfoCard
-          header={"Programming Libraries"}
-          wth={isMedium ? "100%" : "50%"}
-          list={[
-            <TextElement content="JUnit - Enterprise experience with Test Driven Development creating hundreds of reusable and accurate test scenarios" />,
-            <TextElement content="Resilience4J - Enterprise experience migrating from Hystrix" />,
-            <TextElement content="OpenApi / Swagger - Experience implementing and configuring OpenApi Standard 3" />,
-            <TextElement content="Paypal - Experience creating sandbox accounts and implementing services to handle transactions" />,
-            <TextElement content="Google Maps Api - Experience requesting locations and performing mathematical calculations in order to mark and outline buildings accurately" />,
-          ]}
-        />
-        <LeftInfoCard
-          header={"Frameworks"}
-          wth={isMedium ? "100%" : "50%"}
-          list={[
-            <TextElement content="Spring Boot - Working experience creating controllers, services, and libraries." />,
-            <TextElement content="ASP.NET - Working experience in creating web, desktop, and console applications" />,
-            <TextElement content="Angular - Working experience at a Intermediate skill level" />,
-            <TextElement content="Express - Experience creating a web servers, and applications that make use of web sockets" />,
-            <TextElement content="React - Experience creating both web and mobile applications. This site was made in React! " />,
-          ]}
-        />
-          <LeftInfoCard
-            header={"Development Software"}
+            header={"Programming Libraries"}
             wth={isMedium ? "100%" : "50%"}
             list={[
-              <TextElement content="Jira - Working experience with creating or updating tickets" />,
-              <TextElement content="Datadog & Splunk - Enterprise experience creating search queries and dashboards to monitor applications" />,
-              <TextElement content="Bitbucket - Experience with pull requests, creating and cloning repositories, and searching repositories for specific code" />,
-              <TextElement content="Confluence - Experience creating and updating well documented articles" />,
-              <TextElement content="Veracode - Experience running a sandbox scans and reviewing any code or dependency vulnerabilities " />,
+                <TextElement content="JUnit & Mockito - Enterprise experience with TDD; Created hundreds of reusable and accurate test scenarios" />,
+                <TextElement content="Resilience4J - Migrated enterprise services from Hystrix, implementing fault tolerance and circuit breakers" />,
+                <TextElement content="OpenAPI / Swagger - Implemented and configured OpenAPI Standard 3 for APIs" />,
+                <TextElement content="Jackson / JSON / XML / YAML - Experience with serialization, deserialization, and data handling in APIs" />,
+                <TextElement content="Lombok - Used to simplify Java objects and reduce boilerplate in Spring Boot projects" />,
             ]}
-          />
+        />
+        <LeftInfoCard
+            header={"Frameworks"}
+            wth={isMedium ? "100%" : "50%"}
+            list={[
+                <TextElement content="Spring Boot - Enterprise experience creating controllers, services, and reusable libraries" />,
+                <TextElement content="React - Developed web and mobile applications; this site is built with React" />,
+                <TextElement content="ASP.NET - Previous experience in web, desktop, and console applications (educational/older projects)" />,
+                <TextElement content="Angular - Intermediate experience building front-end applications" />,
+                <TextElement content="Express - Experience building web servers and real-time applications using WebSockets (past projects)" />,
+            ]}
+        />
+        <LeftInfoCard
+            header={"Tools"}
+            wth={isMedium ? "100%" : "50%"}
+            list={[
+                <TextElement content="Bitbucket & GitHub - Experience with pull requests, cloning repositories, and searching code" />,
+                <TextElement content="Datadog, Splunk & Dynatrace - Enterprise experience creating queries and dashboards to monitor applications" />,
+                <TextElement content="Jira - Experience creating and updating tickets for project tracking" />,
+                <TextElement content="Veracode - Experience running sandbox scans and reviewing code/dependency vulnerabilities" />,
+                <TextElement content="Redis - Experience using in-memory data store for caching and improving application performance" />,
+            ]}
+        />
         
       </Card>
     </Paper>  
